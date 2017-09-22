@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<style>
+    ul {
+        background-color: black; 
+        padding: 5px;
+    }
+    li {display: inline;}
+    ul li a { text-decoration:none; color:gray; }
+    a:hover {
+    text-decoration: none;
+    color: white;
+    }
+
+</style>
+</head>
+
+<body>
+    <ul><b>
+        <li><a href="https://www.skku.edu/">+누구?</a></li>
+        <li><a href="https://www.google.co.kr/">검색</a></li>
+        <li><a href="https://www.google.co.kr/">이미지</a></li>
+        <li><a href="https://www.google.co.kr/">지도</a></li>
+        <li><a href="https://www.google.co.kr/">Play</a></li>
+        <li><a href="https://www.google.co.kr/">YouTube</a></li>
+        <li><a href="https://www.google.co.kr/">뉴스</a></li>
+        <li><a href="https://www.google.co.kr/">Gmail</a></li>
+        <li><a href="https://www.google.co.kr/">드라이브</a></li>
+        <li><a href="https://www.google.co.kr/">캘린더</a></li>
+    </b></ul>
+</body>
+
+</html>
