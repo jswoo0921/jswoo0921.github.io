@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>WooJiSun Homepage</title>
+</head>
+
+
+<body>
+
+	<h2>WOO JISUN HOMEPAGE</h2>
+
+	<img src="skku.jpg" width="100" height="100">
+	<a href="http://skku.edu" target="_black"> 학교홈페이지 들어가기 </a>
+	<hr>
+	
+
+	<p><h3>과제들</h3></p>
+	<ul>
+		<li>화실레포트</li>
+		<li>잼보리준비</li>
+		<li>스터디준비</li>
+
+	</ul>
+	
+	<hr>
+
+	<table border="1">
+		<caption>
+		3-2 <strong>시간표</strong>
+		</caption>
+		<tr>
+			<th>월</th>
+			<th>화</th>
+			<th>수</th>
+			<th>목</th>
+			<th>금</th>
+		</tr>
+
+		<tr>
+			<td>종양</td>
+			<td></td>
+			<td>의약</td>
+			<td></td>
+			<td></td>
+		<tr>
+		<tr>
+			<td>의약</td>
+			<td></td>
+			<td>종양</td>
+			<td></td>
+			<td></td>
+		<tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>화실</td>
+			<td></td>
+			<td rowspan="3">웹프</td>
+		<tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>단공</td>
+			<td></td>
+		<tr>
+		<tr>
+			<td>단공</td>
+			<td></td>
+			<td></td>
+			<td rowspan="3">알고</td>
+			<td></td>
+		<tr>
+		<tr>
+			<td></td>
+			<td>스터</td>
+			<td></td>
+			<td></td>
+		<tr>
+
+
+
+</body>
+
+</html>
