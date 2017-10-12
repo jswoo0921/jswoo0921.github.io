@@ -1,5 +1,6 @@
 /* 색상코드 #86A8A9 #EEEEE0 #111B20 */
 
+
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 @import url('https://fonts.googleapis.com/css?family=Rajdhani');
 * {EEEEE0
@@ -60,6 +61,7 @@ div.subject {
 }
 
 /***오른쪽바***/
+
 aside#right {
 	
 	width: 30%;
@@ -67,13 +69,11 @@ aside#right {
 	margin-right: 15px;
 	float: right;
 	text-align: center;
-	font-size: 12px;
-}
-#right h3 {
-	font-size: 19px;
+	font-size: 15px;
 	font-family: 'Rajdhani', sans-serif;
 	color: #EEEEE0;
 }
+
 
 
 /***section(인트로) article(나머지) 부분! 내요우분***/
@@ -126,4 +126,5 @@ footer {
 	height: 100px;
 	clear: both;
 	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
 }
