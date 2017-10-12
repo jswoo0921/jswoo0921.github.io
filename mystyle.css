@@ -1,2 +1,104 @@
-h1 { color : red; }
-p { color : #0026ff }
+/* 색상코드 #86A8A9 #EEEEE0 #111B20 */
+
+* {EEEEE0
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-color: #86A8A9;
+}
+table {
+	text-align: center;
+	color: #111B20;
+}
+
+/***헤더***/
+header {
+	width: 100%; height: 200px; 
+	background-color: #EEEEE0;
+}
+h1.title {
+	color: #111B20; padding-top: 77px; text-align: center; font-size: 30px;
+}
+
+
+/***상단메뉴바***/
+nav {
+	margin: 15px;
+	background-color: ;
+}
+nav ul {
+	list-style: none;
+	text-align: center;
+	border-top:2px solid #EEEEE0;
+	border-bottom: 2px solid #EEEEE0;
+	padding: 10px 0;
+}
+nav ul li {
+	display: inline;
+	text-trandform: uppercase;
+	padding: 0 10px;
+	letter-scacing: 10px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #EEEEE0;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+
+/***오른쪽바***/
+aside#right {
+	border-top:2px solid #EEEEE0;
+	border-bottom:2px solid #EEEEE0;
+	width: 30%;
+	margin-top: 20px;
+	margin-right: 15px;
+	float: right;
+	text-align: center;
+	font-size: 12px;
+}
+#right h3 {
+	font-size: 20px;
+}
+
+
+/***section(인트로) article(나머지) 부분! 내요우분***/
+section {
+	border-top:2px solid #EEEEE0;
+	width: 65%;
+	margin-top: 20px;
+	margin-left: 15px;
+
+	font-size: 12px;
+	color: #111B20;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+}
+
+article {
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+
+	font-size: 18px;
+	color: #111B20;
+	overflow: hidden;
+	text-align: center;
+
+
+}
+
+
+/**footer 아래부분****/
+footer {
+	border-top:1px solid #EEEEE0;
+	color: #EEEEE0;
+	width: 100%;
+	height: 100px;
+	clear: both;
+}
