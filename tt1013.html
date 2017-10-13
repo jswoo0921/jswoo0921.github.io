@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>실습 1013</title>
+    
+    
+</head>
+
+<body>
+    <h2>1) 별 문자 출력하기</h2><hr>
+
+    <script>
+        var x = prompt("정수를 입력하세요","입력하세요");
+        n = parseInt(x);
+
+        if (isNaN(n)) {
+            document.write("입력오류입니다.");
+        }
+        
+        function printStar(n) {
+            for(i=1; i<=n; i++) {
+                for (j=1;j<=i;j++) {
+                    document.write("*");
+                }
+                document.write("<br>");
+            }
+        }
+
+        printStar(n);
+    </script>
+
+
+    <h2>2) 큰 자리수와 낮은 자리수 같은지 비교</h2><hr>
+
+    <script>
+        var x = prompt("숫자 입력","입력하세요");
+        n = parseInt(x);
+
+        min = n%10;
+
+        max = n;
+        while (true) {
+            max = Math.floor(max/10);
+            if ((max>=0) && (max<=9)) break;
+        }
+
+
+        if (min==max) {
+            document.write(n+": 같음");
+        }
+        else {
+            document.write(n+": 다름");
+        }
+    
+    </script> 
+
+
+    <h2>문제3</h2><hr>
+
+    <script>
+        var x = prompt("10보다 큰 정수를 입력하세요","입력하세요");
+        n = parseInt(x);
+        
+        for(i=10; i<n; i++) {
+            document.write("<p style='font-size:"+i+"px'>안녕하세요</p>");
+        }
+        
+        
+
+    </script>
+
+
+</body>
+
+
+
+<!-- 수업내용들ㅎㅎㅎ
+<head>
+
+    
+
+    <script> /*주로 헤드에 넣는다*/ /*파이썬이랑 비슷하자ㅏ낭..!!!!!*/
+
+        var now = new Date();
+        document.write(now+"<br>"+"<hr>");/*자바슽ㅋ크트 안에서 새로운 문서 마늗ㄹ 수 잇당!!!!!!*/
+
+        var x;
+        x = "Hello World!";
+        alert(x);
+
+        var user = confirm("confirm()은 사용자의 답변을 전달합니다.");
+
+        var s;
+        s = 100;
+        document.write(s + "<br>");
+        s = "너무너무너무너무배고파";
+        document.write(s + "<br>");
+
+        var s = "Hello World";
+        var t = "How are you" + " today?";
+        document.write(s + "<br>");
+        document.write(t + "<br>");
+        document.write(s.toUpperCase() + "<br />"); /*br /는 뭔 뜻이징?_? */
+        
+        var age = prompt("나이를 입력하세요", "만나이로 입력합니다."); /*input같은 개념. "문자열"로 받는다*/
+        x = parseInt(age); /*parseInt로 int값으로 바꾼다.*/
+        document.write(x)
+
+        function calc() {
+
+            var x = document.getElementById("x").value;
+
+            var y = document.getElementById("y").value;
+            var sum;
+
+            sum = parseInt(x) + parseInt(y);
+            document.getElementById("sum").value = sum;
+        }
+
+        function func() {
+            e = document.getElementById("test");
+            e.style.color = "red";
+        }
+        
+        /*array 관련 링크: http://kssong.tistory.com/26 */
+
+
+    </script>
+
+<head>
+
+
+<body>
+
+    <h3>덧셈 계산기</h3>
+        <form name="myform" action="..." method="POST"> <<<<<이건뭐지??*
+            첫번째 정수:        
+            <input id="x" /><br />
+            두번째 정수:        
+            <input id="y" /><br />
+            합계:         
+            <input id="sum" /><br />
+            <input type="button" value="계산" onclick="calc();" />
+        </form>
+    
+    <h1 id="test">This is a heading.</h1>
+    <button type="button" onclick="func()">클릭하세요!</button>
+
+
+    
+  
+</body>
+
+-->
+
+</html>
