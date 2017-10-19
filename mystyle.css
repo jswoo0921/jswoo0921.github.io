@@ -1,0 +1,187 @@
+/* 색상코드 #86A8A9 #EEEEE0 #111B20 */
+
+
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+* {EEEEE0
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-color: #86A8A9;
+}
+table {
+	text-align: center;
+	color: #111B20;
+}
+
+
+/***헤더***/
+header {
+	width: 100%; height: 200px; 
+	background-color: #EEEEE0;
+}
+
+h1.title {
+	color: #111B20; padding-top: 77px; text-align: center; font-size: 30px;
+	font-family: 'Poiret One', cursive;
+}
+
+/***상단메뉴바***/
+nav {
+	margin: 15px;
+	background-color: ;
+}
+nav ul {
+	list-style: none;
+	text-align: center;
+	border-top:2px solid #EEEEE0;
+	border-bottom: 2px solid #EEEEE0;
+	padding: 10px 0;
+}
+nav ul li {
+	display: inline;
+	text-trandform: uppercase;
+	padding: 0 10px;
+	letter-scacing: 10px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #EEEEE0;
+	font-family: 'Rajdhani', sans-serif;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+div.subject {
+	padding: 10px;
+	margin: 25px;
+	border: 1px solid #EEEEE0;
+}
+
+/***오른쪽바***/
+
+aside {
+	
+	width: 30%;
+	margin-top: 20px;
+	margin-right: 15px;
+	float: right;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Rajdhani', sans-serif;
+	color: #EEEEE0;
+}
+aside ul {
+	list-style: none;
+	text-align: center;
+	border-top:1px solid #EEEEE0;
+	border-bottom: 1px solid #EEEEE0;
+	padding: 10px 0;
+}
+aside ul li {
+	display: inline;
+	text-trandform: uppercase;
+	padding: 0 10px;
+	letter-scacing: 10px;
+}
+aside ul li a {
+	text-decoration: none;
+	color: #EEEEE0;
+	font-family: 'Rajdhani', sans-serif;
+}
+aside ul li a:hover {
+	text-decoration: underline;
+}
+
+
+/***section(인트로) article(나머지) 부분! 내요우분***/
+
+section {
+	width: 65%;
+	margin-top: 20px;
+	margin-left: 15px;
+
+	font-size: 12px;
+	color: #111B20;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+}
+
+section_center {
+	width: 65%;
+	margin-top: 20px;
+	margin-left: 15px;
+
+	font-size: 12px;
+	color: #111B20;
+	overflow: hidden;
+	float: left;
+}
+
+
+
+/***************************************************/
+
+article {
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+
+	font-size: 18px;
+	color: #111B20;
+	overflow: hidden;
+	text-align: center;
+}
+
+article_small {
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+
+	font-size: 12px;
+	color: #111B20;
+	overflow: hidden;
+	text-align: center;
+
+	color: #EEEEE0;
+}
+article ul {
+	list-style: none;
+	text-align: center;
+	
+	padding: 10px 0;
+}
+article ul li {
+	display: inline;
+	text-trandform: uppercase;
+	padding: 0 10px;
+	letter-scacing: 10px;
+}
+article ul li a {
+	text-decoration: none;
+	color: #EEEEE0;
+	font-family: 'Rajdhani', sans-serif;
+}
+article ul li a:hover {
+	text-decoration: underline;
+}
+
+
+
+/**footer ******************************/
+
+footer {
+	border-top:2px solid #EEEEE0;
+	color: #EEEEE0;
+	width: 100%;
+	height: 100px;
+	clear: both;
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+}
