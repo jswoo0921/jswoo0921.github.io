@@ -1,0 +1,46 @@
+<html>
+<body>
+    <script>
+        function printArr(Arr, len) {
+            for(i=0;i<len;i++) {
+                document.write("Myarr["+i+"]: "+Arr[i] +"<br>");
+            }
+        }
+
+        var n = prompt ("Number of words: ", 0);
+        document.write ("Size of array: " + n +"<br>");
+        
+        var Myarr = new Array();
+        for (i=0;i<n;i++) {
+            Myarr[i] = prompt ("Input a word: ","");
+        }
+
+        document.write ("<br>Sorting in ascending order..<br><br>");
+        Myarr.sort();
+        printArr(Myarr, n);
+
+        document.write ("<br>Reverse order..<br><br>");
+        Myarr.reverse();
+        printArr(Myarr, n);
+
+
+        document.write ("<br>");
+        ///2번문제///
+
+
+        var m = prompt ("Number of words: ",0);
+
+        var Myarr2 = new Array();
+        for (i=0;i<m;i++) {
+            Myarr2[i] = prompt ("Input a number: ",0);
+        }
+
+        Myarr2 = Myarr2.sort(function (a, b) { return a - b });
+        
+        document.write("Minimum :" + Myarr2[0] + "<br>");
+        document.write("Maximum :" + Myarr2[m-1] + "<br>");
+
+    </script>
+
+</body>
+</html>
