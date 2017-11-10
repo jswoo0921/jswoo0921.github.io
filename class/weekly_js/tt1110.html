@@ -1,0 +1,101 @@
+<html>
+
+<body>
+<!-- 1번 -->
+    <input type="button" onclick="changeImage1()" value="on" />
+    <input type="button" onclick="changeImage2()" value="off" />
+
+    <br><br>
+
+    <img id="image" src="off.jpg" width="100" height="150">
+
+    <script>
+        function changeImage1() {
+            document.getElementById("image").src = "on.jpg";
+        }
+        function changeImage2() {
+            document.getElementById("image").src = "off.jpg";
+        }
+    </script>
+    <br><br>
+
+<!-- 2번 -->
+    <h1>스터디 회원 모집</h1>
+
+
+    <script>
+        function addimage(t) {
+            var img = document.createElement("IMG");  
+            img.src = "logo.png"
+            document.body.appendChild(img);
+        }
+    </script>
+    <input type="button" onclick="addimage()" value="이미지보기"/>
+    <br><br>
+
+<!-- 3번 -->
+    <h1>웹 표준 기술은?</h1>
+    <p>아래 이미지를 클릭해보세요!</p>
+    
+    <img id = "weekly3h" src="h.jpg" onclick="changeH()">
+    <img id = "weekly3t" src="t.jpg" onclick="changeT()">
+    <img id = "weekly3m" src="m.jpg" onclick="changeM()">
+    <img id = "weekly3l" src="l.jpg" onclick="changeL()">
+    <img id = "weekly35" src="5.jpg" onclick="change5()">
+
+
+    <script>
+        function changeH() {
+            document.getElementById("weekly3h").src = "h2.jpg";
+        }
+        function changeT() {
+            document.getElementById("weekly3t").src = "t2.jpg";
+        }
+        function changeM() {
+            document.getElementById("weekly3m").src = "m2.jpg";
+        }
+        function changeL() {
+            document.getElementById("weekly3l").src = "l2.jpg";
+        }
+        function change5() {
+            document.getElementById("weekly35").src = "5-2.jpg";
+        }
+
+    </script>
+    <br>
+
+<!-- 4번 -->
+
+    <script>
+        function OnMouseOut(elem) 
+
+            {
+                elem.style.border = "1px solid black";
+                elem.style.borderRadius = "10px";
+                elem.style.padding = "1px solid black";
+                elem.style.color = "black";
+                elem.style.backgroundColor = "white";
+            }
+            function OnMouseIn(elem) 
+            {
+                //elem.style.border = "1px solid black";
+                elem.style.borderRadius = "80px";
+                //elem.style.padding = "1px solid black";
+                elem.style.color = "white";
+                elem.style.backgroundColor = "#222";
+            }
+    </script>
+
+
+
+    <div style="border : 1px solid black;
+            border-radius : 10px;
+            padding : 10px;
+            color : black;
+            backgroundColor : white;"
+        onmouseover="OnMouseIn (this)" onmouseout="OnMouseOut (this)">
+        자바스크립트는 HTML태그의 내용이나 속성 뿐 아니라 CSS속성도 수정할 수 있습니다.자바스크립트는 HTML태그의 내용이나 속성 뿐 아니라 CSS속성도 수정할 수 있습니다.
+    </div>
+
+</body>
+</html>
