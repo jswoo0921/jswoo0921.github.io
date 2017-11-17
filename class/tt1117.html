@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h4>학생 성적</h4>
+    <p style="background-color: skyblue">
+        <span id = "stu"></span><br>
+        <span id = "stu2"></span><br>
+        <span id = "stu3"></span><br><br>
+        <span id = "result"></span>
+
+    </p>
+
+    <script>
+        var s =
+        '[{"name": "Hong","age": "21","kor": "89","eng": "92"},'+
+        '{"name": "Kim", "age": "22", "kor": "99", "eng": "100"},'+
+        '{"name": "Park", "age": "23", "kor": "88", "eng": "98"}]';
+        var students = JSON.parse(s);
+        
+        sum = 0;
+        t1 = "1. " + students[0].name +"("+ students[0].age +"): 국어 - "+ students[0].kor +" / 영어 = " + students[0].eng ;
+        t2 = "2. " + students[1].name +"("+ students[1].age +"): 국어 - "+ students[1].kor +" / 영어 = " + students[1].eng ;
+        t3 = "3. " + students[2].name +"("+ students[2].age +"): 국어 - "+ students[2].kor +" / 영어 = " + students[2].eng ;
+            
+        //sum = sum + students[i].kor + students[i].eng;
+        document.getElementById("stu").innerHTML = t1;
+        document.getElementById("stu2").innerHTML = t2;
+        document.getElementById("stu3").innerHTML = t3;
+        
+        for(i=0;i<3;i++) {
+            sum = sum +Number(students[i].kor) + Number(students[i].eng);
+        }
+        ave = sum/6;
+
+        res = "총합 = " + sum + "<br>평균 = " + ave;
+        document.getElementById("result").innerHTML = res;
+        
+        //document.getElementById("name").innerHTML = students[i].name;
+        //document.getElementById("age").innerHTML = students[i].age;
+        //document.getElementById("kor").innerHTML = students[i].kor;
+        //document.getElementById("eng").innerHTML = students[i].eng;
+    
+        
+
+    </script>
+</body>
+
+</html>
